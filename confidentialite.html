@@ -47,6 +47,16 @@
       <li><strong>Arrive+</strong> : tes destinations et heures d'arrivée, stockées sur ton iPhone ; les temps de trajet sont calculés par Apple Plans à partir de ta position.</li>
       <li><strong>LastExit</strong> : la liste des stations d'autoroute est intégrée à l'app (données publiques prix-carburants.gouv.fr, mises à jour chaque jour). Pour les aires de repos, ta position approximative est envoyée à l'API OpenStreetMap (Overpass) au moment de la recherche ; elle n'est pas enregistrée par l'app.</li>
       <li><strong>RoadNote</strong> : tes notes vocales, leur transcription et leur position, stockées uniquement sur ton iPhone. La transcription utilise la reconnaissance vocale d'Apple.</li>
+      <li><strong>Plein Moins Cher</strong> : ta position est envoyée au service public data.economie.gouv.fr au moment de la recherche des stations ; elle n'est pas enregistrée par l'app. Ton carburant et ton rayon préférés restent sur ton iPhone.</li>
+      <li><strong>KiloPro</strong> : tes trajets (date, kilomètres, motif) sont stockés uniquement sur ton iPhone. La position n'est utilisée que pendant un trajet démarré par toi ou ton automatisation.</li>
+      <li><strong>PauseRoute</strong> : la position sert seulement à savoir si tu roules, pendant la conduite ; rien n'est conservé.</li>
+      <li><strong>Entretien Auto</strong> : ton carnet d'entretien (dates, kilométrages, coûts) est stocké uniquement sur ton iPhone.</li>
+      <li><strong>Météo Route</strong> : ta position et les étapes de ton trajet sont transmises au service météo d'Apple (WeatherKit) et à Apple Plans pour l'itinéraire ; rien n'est conservé par l'app.</li>
+      <li><strong>Éco Conduite</strong> : tes trajets et tes scores sont stockés uniquement sur ton iPhone. La position n'est utilisée que pendant un trajet démarré par toi ou ton automatisation.</li>
+      <li><strong>SOS Route</strong> : ta position n'est jamais envoyée sans ton geste (« Envoyer ma position »). Ton numéro d'assistance, ton contrat et ta plaque restent sur ton iPhone.</li>
+      <li><strong>ConsoMètre</strong> : tes pleins sont stockés uniquement sur ton iPhone.</li>
+      <li><strong>Bientôt Arrivés</strong> : la position sert à suivre l'avancée du trajet (itinéraire calculé par Apple Plans) ; seul le nom de la dernière destination est gardé sur ton iPhone.</li>
+      <li><strong>Frais Partagés</strong> : la position sert à calculer la distance avec Apple Plans ; tes trajets enregistrés restent sur ton iPhone.</li>
       <li><strong>Voix Off</strong> : tes dictées sont transcrites par la reconnaissance vocale d'Apple (sur l'appareil quand c'est possible) ; l'enregistrement est effacé juste après. Tes messages restent sur ton iPhone.</li>
       <li><strong>Réveil Doux</strong> : tes alarmes et l'historique de tes réveils, stockés uniquement sur ton iPhone.</li>
       <li><strong>Nuit Sonore</strong> : le son n'est jamais enregistré ; seul le niveau sonore (en décibels) de tes nuits est gardé sur ton iPhone.</li>
@@ -118,6 +128,15 @@
       <tr><td>Arrive+</td><td>Position (lors de l'utilisation)</td><td>Calculer ton heure d'arrivée</td></tr>
       <tr><td>LastExit</td><td>Position (lors de l'utilisation)</td><td>Trouver les aires devant toi</td></tr>
       <tr><td>RoadNote</td><td>Micro, Reconnaissance vocale, Position (« Toujours » facultatif), Notifications</td><td>Dicter tes notes ; te les rappeler au bon endroit</td></tr>
+      <tr><td>Plein Moins Cher</td><td>Position (lors de l'utilisation)</td><td>Trouver les stations autour de toi</td></tr>
+      <tr><td>KiloPro</td><td>Position (pendant un trajet, y compris écran verrouillé), Notifications</td><td>Compter les kilomètres ; confirmer le trajet enregistré</td></tr>
+      <tr><td>PauseRoute</td><td>Position (pendant la conduite, y compris écran verrouillé), Notifications</td><td>Savoir si tu roules ; te rappeler la pause</td></tr>
+      <tr><td>Entretien Auto</td><td>Notifications</td><td>Te rappeler les échéances</td></tr>
+      <tr><td>Météo Route</td><td>Position (lors de l'utilisation)</td><td>Météo locale et point de départ du trajet</td></tr>
+      <tr><td>Éco Conduite</td><td>Position (pendant un trajet, y compris écran verrouillé), Notifications</td><td>Mesurer la vitesse ; t'envoyer ton score</td></tr>
+      <tr><td>SOS Route</td><td>Position (lors de l'utilisation)</td><td>Afficher et partager ta position</td></tr>
+      <tr><td>Bientôt Arrivés</td><td>Position (lors de l'utilisation)</td><td>Suivre l'avancée du trajet</td></tr>
+      <tr><td>Frais Partagés</td><td>Position (lors de l'utilisation)</td><td>Calculer la distance du trajet</td></tr>
       <tr><td>Voix Off</td><td>Micro, Reconnaissance vocale</td><td>Dicter tes messages</td></tr>
       <tr><td>Réveil Doux</td><td>Notifications, Mouvements</td><td>Te réveiller ; compter les secousses du défi</td></tr>
       <tr><td>Nuit Sonore</td><td>Micro, Notifications (facultatif)</td><td>Mesurer le niveau sonore de la nuit ; rappel du soir</td></tr>
